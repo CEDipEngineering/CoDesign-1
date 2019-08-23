@@ -1,0 +1,159 @@
+/* index.html */
+
+
+.main-header {
+  display: flex;
+  margin: 2rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; 
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  justify-content: flex-end;
+
+}
+
+.page-title {
+  font-size: 4rem;
+  margin-right: 35%;
+
+}
+
+.index-title-img {
+  max-width: 23rem;
+  max-height: 16rem;
+
+}
+
+.subtitulo {
+ margin-left: 2rem;
+ font-size: 2rem;
+
+}
+
+.sections-menu {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.sections-menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 45%;
+}
+
+.sections-menu-item-title {
+order: -1;
+}
+
+.sections-menu-item-image {
+max-width: 35%
+}
+.sections-menu-item-description {
+  }
+.home{
+  width : 4rem;
+  order: 1;
+
+
+}
+
+
+
+
+/*
+
+.logo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.header-text {
+  position: absolute;
+  left: 400px;
+  top: 25px;
+  width: 1024px;
+  height: 70px;
+  border-style: solid;
+  border-width: 0px;
+}
+.header-text2 {
+  position: absolute;
+  left: 210px;
+  top: 65px;
+  width: 610px;
+  height: 70px;
+  border-style: solid;
+  border-width: 0px;
+}
+
+.section-title {
+  position: absolute;
+  left: 0px;
+  top: 260px;
+  width: 400px;
+  height: 100px;
+}
+
+.section-title-image {
+  width: 390px;
+  height: 150px;
+}
+
+.books-menu {
+  position: absolute;
+  left: 10px;
+  top: 280px;
+  width: 1024px;
+  height: 1024px;
+  text-align: left;
+}
+
+.books-menu-item {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  margin: 5px;
+  background-color: gold;
+}
+
+.books-menu-item-image {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 400px;
+  height: 250px;
+}
+
+.books-menu-item-text {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 450px;
+}
+
+.books-menu-item-text2 {
+  position: absolute;
+  left: 0px;
+  top: 260px;
+  width: 400px;
+  height: 100px;
+}
+
+*/

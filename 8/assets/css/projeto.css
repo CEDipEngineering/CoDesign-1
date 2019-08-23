@@ -1,0 +1,80 @@
+/* projeto.html */
+
+.super-titulo{  
+}
+
+.super-titulo-texto{
+}
+
+.projeto-sections-menu {
+}
+
+.projeto-sections-menu-item {
+}
+
+.projeto-sections-menu-title {
+}
+
+.projeto-sections-menu-item-image {
+}
+
+.projeto-sections-menu-item-text {
+}
+
+/*
+
+.super-titulo{
+  display: inline;  
+  position: absolute;
+  left: 10px;
+  top: 220px;
+  width: 1080px;
+  text-align: left;
+  
+}
+
+.super-titulo-texto{
+  bottom: 10px;
+
+}
+
+.projeto-sections-menu {
+  position: absolute;
+  left: 10px;
+  top: 350px;
+  width: 1100px;
+  text-align: left;
+}
+
+.projeto-sections-menu-item {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 250px;
+  margin: 10px;
+  background-color: gold;
+}
+
+.projeto-sections-menu-title {
+  display: inline;
+  position: relative;
+  background-color: gold;
+}
+
+.projeto-sections-menu-item-image {
+  position: absolute;
+  left: 0px;
+  top: 15px;
+  width: 200px;
+  height: 235px;
+}
+
+.projeto-sections-menu-item-text {
+  position: absolute;
+  left: 210px;
+  top: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+*/
