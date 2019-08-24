@@ -28,11 +28,11 @@
 }
 
 .sections-menu-item-title {
-order: -1;
+  order: -1;
 }
 
 .sections-menu-item-image {
-max-width: 35%
+  max-width: 35%
 }
 
 .home{

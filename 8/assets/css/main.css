@@ -1,20 +1,19 @@
 
 .main-header {
-    display: flex;
-    margin: 2rem;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center; 
-  }
-  
-  .index-title-img {
-    max-width: 23rem;
-    max-height: 16rem;
-  }
+  display: flex;
+  margin: 2rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; 
+}
 
-  .sections-menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    }
-    
+.index-title-img {
+  max-width: 23rem;
+  max-height: 16rem;
+}
+
+.sections-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
