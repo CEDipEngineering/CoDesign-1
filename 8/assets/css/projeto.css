@@ -1,80 +1,53 @@
-/* projeto.html */
-
-.super-titulo{  
+.header-title {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  justify-content: flex-end;
 }
 
-.super-titulo-texto{
+.page-title {
+  font-size: 2.5rem;
+  margin: 0px auto;
 }
 
-.projeto-sections-menu {
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  height: 22rem;
+  max-width: 75%;
+  margin-left:  2rem;
 }
 
-.projeto-sections-menu-item {
+.subtitulos {
+ font-size: 2rem;
 }
 
-.projeto-sections-menu-title {
+.sections-menu-item {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2%;
+  border-style: solid;
+  border-width: 1px;
+  justify-content: flex-start;
+  max-width: 45%;
+  max-height: 10rem;
 }
 
-.projeto-sections-menu-item-image {
+.name {
+  font-size: 1.71rem;
 }
 
-.projeto-sections-menu-item-text {
+.sections-menu-item-image {
+height: 100%;
+max-width: 35%;
 }
 
-/*
-
-.super-titulo{
-  display: inline;  
-  position: absolute;
-  left: 10px;
-  top: 220px;
-  width: 1080px;
-  text-align: left;
-  
+.sections-menu-item-title {
+  align-self: center;
 }
 
-.super-titulo-texto{
-  bottom: 10px;
-
+.home{
+  width : 4rem;
+  order: 1;
 }
 
-.projeto-sections-menu {
-  position: absolute;
-  left: 10px;
-  top: 350px;
-  width: 1100px;
-  text-align: left;
-}
-
-.projeto-sections-menu-item {
-  display: inline-block;
-  position: relative;
-  width: 500px;
-  height: 250px;
-  margin: 10px;
-  background-color: gold;
-}
-
-.projeto-sections-menu-title {
-  display: inline;
-  position: relative;
-  background-color: gold;
-}
-
-.projeto-sections-menu-item-image {
-  position: absolute;
-  left: 0px;
-  top: 15px;
-  width: 200px;
-  height: 235px;
-}
-
-.projeto-sections-menu-item-text {
-  position: absolute;
-  left: 210px;
-  top: 10px;
-  width: 250px;
-  height: 250px;
-}
-
-*/
