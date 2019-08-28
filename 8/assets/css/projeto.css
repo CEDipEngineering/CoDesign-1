@@ -19,7 +19,7 @@
 }
 
 .subtitulos {
- font-size: 2rem;
+  font-size: 2rem;
 }
 
 .sections-menu-item {
@@ -45,9 +45,3 @@
 .sections-menu-item-title {
   align-self: center;
 }
-
-.home{
-  width : 4rem;
-  order: 1;
-}
-

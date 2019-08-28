@@ -6,13 +6,13 @@
 }
 
 .page-title {
-  font-size: 2.73rem;
+  font-size: 2.5rem;
   margin: 0px auto;
 }
 
 .subtitulo {
- margin-left: 2rem;
- font-size: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
 }
 
 .sections-menu-item {
@@ -33,10 +33,5 @@
 
 .sections-menu-item-image {
   max-width: 35%
-}
-
-.home{
-  width : 4rem;
-  order: 1;
 }
 

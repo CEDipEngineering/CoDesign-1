@@ -2,10 +2,9 @@
   font-family: 'Lora', serif, sans-serif;
 }
 
-.sections-menu-item-title {
+.sections-menu-item-title, .page-title, .subtitulo, .subtitulos {
   font-family: 'Montserrat', sans-serif;  
 }
-
 
 .main-header {
   display: flex;
@@ -25,3 +24,10 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+
+.home{
+  width : 3rem;
+  order: 1;
+}
+
