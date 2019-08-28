@@ -1,3 +1,11 @@
+.main {
+  font-family: 'Lora', serif, sans-serif;
+}
+
+.sections-menu-item-title {
+  font-family: 'Montserrat', sans-serif;  
+}
+
 
 .main-header {
   display: flex;
