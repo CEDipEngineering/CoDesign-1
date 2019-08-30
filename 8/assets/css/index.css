@@ -1,3 +1,11 @@
+/*
+#000000 - BLACK
+#ffffff - WHITE
+#797b80 - GRAY
+#d60c07 - RED
+#cfaa34 - GOLD
+*/
+
 .sections-menu-item {
 	display: flex;
 	flex-wrap: wrap;
