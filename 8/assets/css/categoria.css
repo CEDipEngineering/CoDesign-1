@@ -52,6 +52,7 @@ a {
   flex-flow: column wrap;
   height: 22rem;
   justify-content: space-between;
+  max-width: 100%;
   margin: 0 2rem;
   color: #ffffff;
   padding: 1.5rem;
@@ -59,7 +60,7 @@ a {
 
 .menu-item {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row nowrap;
   margin: 2%;
   border: 0.3rem solid #cfaa34;
   border-radius: 1.5rem;
@@ -68,28 +69,17 @@ a {
   max-height: 10rem;
   color: #ffffff;
   padding: 0.5rem;
-  background-color: #00ffff;
 }
 
 .menu {
-  border: 2px solid purple;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
 }
 
 .main-body-subtitle {
   font-size: 2rem;
 }
 
-.menu-item-text {
-  border: 0.3rem solid #cfaa34;
-  border-radius: 1.5rem;
-  height: 22rem;
-  margin: 0 2rem;
-  color: #ffffff;
-  padding: 1.5rem
-}
 
 .menu-title {
   font-size: 2rem;
@@ -99,8 +89,7 @@ a {
 }
 
 .menu-item-title {
-  font-size: 1.71rem;
-  align-self: center;
+  font-size: 1.71rem;  
 }
 
 .menu-item-image {
@@ -108,9 +97,12 @@ a {
   max-width: 35%;
 }
 
+.menu-item-title {
+  align-self: center;
+}
 
 .main{
-	font-family: 'Lora', serif, sans-serif;
+  font-family: 'Lora', serif, sans-serif;
 }
 
 .menu-item-title, .main-title, .main-body-subtitle {
