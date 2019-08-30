@@ -47,13 +47,14 @@
   display: flex;
   flex-flow: row nowrap;
   margin: 2%;
-  border-style: solid;
-  border-width: 1px;
+  border: 0.3rem solid #cfaa34;
+  border-radius: 1.5rem;
   justify-content: flex-start;
   max-width: 45%;
   max-height: 10rem;
-  background-color: #cfaa34;	
-  filter: brightness(70%);
+  color: #ffffff;
+  padding: 0.5rem;
+  
 }
 
 
