@@ -10,6 +10,7 @@
 body {
 	background-color: #000000;
   font-family: 'Lora', serif, sans-serif;
+  /*background-image: linear-gradient(#cfaa34, #000 1.5rem);*/
 }
 
 a {
@@ -23,8 +24,7 @@ a {
 	margin-top: 1rem;  
 	justify-content: flex-end;
 	color: #ffffff;
-	background-color: #000000;
-	padding: 0.75rem;
+	padding: 1rem;
   height: 2rem;
 }
 
@@ -127,6 +127,7 @@ a {
 .home-button{
 	height: 2rem;
 	order: 1;
+  background-color: transparent;
 }
 
 .home-button:hover {
