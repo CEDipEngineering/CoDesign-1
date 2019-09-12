@@ -14,9 +14,9 @@
         },
 
         "text" : {
-          "first" : "Construção de uma estação meteorológica numa shield de arduino.",
-          "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-          "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+          "first" : "Modelagem e construção de um circuito de PWM.",
+          "second" : "Fiz um motor eficiente.",
+          "third" : "Eletrônica."
         }
 
       },
@@ -36,14 +36,14 @@
         }
 
       },
-      "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-      "main-title" : "Estação Meteorológica",
+      "sub-header" : "Neste projeto iremos controlar a velocidade de um motor através da técnica de modulação de largura de pulso.",
+      "main-title" : "Controle de um motor por PWM",
     }
   },
 
   "mat" : {
     "main-title" : "Matemática",
-    "sub-header" : "Aqui você encontrará projetos voltados para eletrônica, como uma estação meteorológica fazendo uso do Arduino.",
+    "sub-header" : "Aqui você encontrará projetos voltados para matemática, como uma análise sobre o teorema de Stokes.",
 
     "magnus" : {
 
@@ -122,7 +122,7 @@
 
   "prog" : {
     "main-title" : "Programação",
-    "sub-header" : "Aqui você encontrará projetos voltados para eletrônica, como uma estação meteorológica fazendo uso do Arduino.",
+    "sub-header" : "Aqui você encontrará projetos voltados para programação, como jogos em pygame e analisadores bayesianos de sentimento",
 
     "cage" : {
 
@@ -275,7 +275,7 @@
 
   "fab" : {
     "main-title" : "Fabricação",
-    "sub-header" : "Aqui você encontrará projetos voltados para eletrônica, como uma estação meteorológica fazendo uso do Arduino.",
+    "sub-header" : "Aqui você encontrará projetos voltados para fabricação, como uma estação meteorológica fazendo uso de circuitos integrados.",
 
     "girafa" : {
 
