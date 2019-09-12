@@ -7,6 +7,8 @@
   <link href="assets/css/projeto.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/projeto.js"></script>
 
 
   <meta charset="utf-8">
@@ -21,7 +23,7 @@
         </a>
       </figure>
       <h1 class = "main-title">
-        PESQUISA ESTATÍSTICA
+        {{main-title}}
       </h1>
     </header>
 
@@ -30,82 +32,42 @@
       <img class = "sub-header-img" src= "assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
       <div class="sub-header-text">
         <p>
-        Lorem ipsum dolor sit amet, cetero indoctum vituperata mel ei. Vim ei laudem fuisset, no atqui eripuit nec. Iusto vocent diceret et nam. Mea et commodo impetus, ex elit probatus vis. Cetero praesent percipitur sit te.        </p>
+        {{sub-header-text}}     
+        </p>
       </div>
     </div>
 
 
-
+    {{#if this.main-body.on}}
     <div class="main-body">
+      {{#each main-body}}
       <h1 class = "main-body-subtitle">
-        Título Completo:
+        {{this.subtitle}}
       </h1>
       <p class="main-body-text">
-        Análise estatística correlacional entre mortes por afogamento nos Estados Unidos da América, e filmes de Hollywood estrelando o ator Nicolas Cage.
+        {{this.text}}
       </p>
-      <h1 class = "main-body-subtitle">
-        Sobre o projeto:
-      </h1>
-      <p class="main-body-text">
-        Lorem ipsum dolor sit amet, cetero indoctum vituperata mel ei. Vim ei laudem fuisset, no atqui eripuit nec. Iusto vocent diceret et nam. Mea et commodo impetus, ex elit probatus vis. Cetero praesent percipitur sit te.
-        Lorem ipsum dolor sit amet, cetero indoctum vituperata mel ei. Vim ei laudem fuisset, no atqui eripuit nec. Iusto vocent diceret et nam. Mea et commodo impetus, ex elit probatus vis. Cetero praesent percipitur sit te.
-        Lorem ipsum dolor sit amet, cetero indoctum vituperata mel ei. Vim ei laudem fuisset, no atqui eripuit nec. Iusto vocent diceret et nam. Mea et commodo impetus, ex elit probatus vis. Cetero praesent percipitur sit te.
-        Lorem ipsum dolor sit amet, cetero indoctum vituperata mel ei. Vim ei laudem fuisset, no atqui eripuit nec. Iusto vocent diceret et nam. Mea et commodo impetus, ex elit probatus vis. Cetero praesent percipitur sit te.
-      </p>
-      <h1 class = "main-body-subtitle">
-        Habilidades desenvolvidas:
-      </h1>
-      <p class="main-body-text">
-        Lorem ipsum dolor sit amet, cetero indoctum vituperata mel ei. Vim ei laudem fuisset, no atqui eripuit nec. Iusto vocent diceret et nam. Mea et commodo impetus, ex elit probatus vis. Cetero praesent percipitur sit te.
-      </p>		
+      {{/each}}		
     </div>
-
+    {{/if}}
     <h1 class = "menu-title">
       Equipe:
     </h1> 
 
     <ul class="menu">
+      {{#each menu}}
       <li class="menu-item">
         <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
         <div>
           <p class="menu-item-title">
-            Ben Affleck
+            {{this.title}}
           </p>
           <p class = "menu-item-text">
-            "I'm batman."
+            {{this.text}}
           </p>
         </div>
       </li>
-
-
-
-      <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
-        <div>
-          <p class="menu-item-title">
-            Michael Jackson 
-          </p>
-          <p class = "menu-item-text">
-            Moonwalking...
-          </p>
-        </div>
-      </li>
-
-
-
-      <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
-        <div>
-          <p class="menu-item-title">
-            John Travolta
-          </p>
-          <p class = "menu-item-text">
-            Confused
-          </p>
-        </div>
-      </li>
-
-
+      {{/each}}
     </ul>
   </main>
 </body>
