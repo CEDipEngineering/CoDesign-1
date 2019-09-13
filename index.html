@@ -35,71 +35,28 @@
 
 
     <h1 class = "menu-title">
-      Projetos:
+      Categorias:
     </h1> 
 
     <ul class="menu">
+
+    {{#each portfolio}}
       <li class="menu-item">
         <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
         <div>
-          <a href = "categoria.html">
+          <a href = "categoria.html?id={{@key}}">
             <p class="menu-item-title">
-              Matemática
+              {{this.main-title}}
             </p>
           </a>
           <p class = "menu-item-text">
-            Nesta seção você encontrará todos os projetos de matemática
+            {{this.sub-header}}
           </p>
         </div>
       </li>
+    {{/each}}
 
-
-
-      <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
-        <div>
-          <a href = "categoria.html">
-            <p class="menu-item-title">
-              Fabricação
-            </p>
-          </a>
-          <p class = "menu-item-text">
-            Nesta seção você encontrará todos os projetos de fabricação
-          </p>
-        </div>
-      </li>
-
-
-
-      <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
-        <div>
-          <a href = "categoria.html">
-            <p class="menu-item-title">
-              Programação
-            </p>
-          </a>
-          <p class = "menu-item-text">
-            Nesta seção você encontrará todos os projetos de programação
-          </div>
-        </li>
-
-        <li class="menu-item">
-          <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
-          <div>
-            <a href = "categoria.html">
-              <p class="menu-item-title">
-                Eletrônica
-              </p>
-            </a>
-            <p class = "menu-item-text">
-              Nesta seção você encontrará todos os projetos de eletrônica
-            </div>
-          </li>
-
-
-
-        </ul>
-      </main>
-    </body>
-    </html>
+    </ul>
+  </main>
+</body>
+</html>
