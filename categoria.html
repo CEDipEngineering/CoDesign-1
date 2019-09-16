@@ -16,7 +16,14 @@
   <meta charset="utf-8">
   <meta name = "viewport" content = "width = device-width, initial-scale = 1">
 </head>
-<div class="cover">
+
+<figure class="cover">
+  <img class="cover-img" src="assets/img/loading.gif">
+  <p class="cover-text">
+    Olá, por favor aguarde enquanto preparamos tudo para você!
+  </p>
+</figure>
+
 <body>
   <main class = "main">
     <header class="header">
@@ -32,7 +39,7 @@
 
 
     <div class = "sub-header">
-      <img class = "sub-header-img" src= "assets/img/Ben Affleck.png" alt="Ator Ben Affleck (Batman) triste.">
+      <img class = "sub-header-img" src= "assets/img/{{cat}}.png" alt="Imagem descritiva da categoria {{cat}}.">
       <div class="sub-header-text">
         <p>
           {{sub-header}}       
@@ -48,7 +55,7 @@
 
       {{#each projetos}}
       <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/Ben Affleck.png" alt="Ator Ben Affleck (Batman) triste.">
+        <img class="menu-item-image" src="assets/img/{{@key}}.png" alt="Imagem descritiva de {{@key}}">
         <div class = "link">
           <a href="projeto.html?id={{@key}}">
             <p class="menu-item-title">
@@ -68,5 +75,4 @@
 </ul>
 </main>
 </body>
-</div>
 </html>

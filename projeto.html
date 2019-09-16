@@ -9,14 +9,20 @@
   <link href="assets/css/fonts.css" rel="stylesheet">
   <link href="assets/css/projeto.css" rel="stylesheet">
   <script src="assets/js/codes.js"></script>
-  <script src="assets/js/main.js"></script>
   <script src="assets/js/projeto.js"></script>
 
 
   <meta charset="utf-8">
   <meta name = "viewport" content = "width = device-width, initial-scale = 1">
 </head>
-<div class="cover">
+
+<figure class="cover">
+  <img class="cover-img" src="assets/img/loading.gif">
+  <p class="cover-text">
+    Olá, por favor aguarde enquanto preparamos tudo para você!
+  </p>
+</figure>
+
 <body>
   <main class = "main">
     <header class="header">
@@ -32,10 +38,10 @@
 
 
     <div class = "sub-header">
-      <img class = "sub-header-img" src= "assets/img/Ben Affleck.png" alt="Ator Ben Affleck (Batman) triste.">
+      <img class = "sub-header-img" src= "assets/img/{{projectkey}}.png" alt="Imagem de {{projectkey}}">
       <div class="sub-header-text">
         <p>
-        {{sub-header}}     
+          {{sub-header}}     
         </p>
       </div>
     </div>
@@ -58,7 +64,7 @@
     <ul class="menu">
       {{#each menuBuilder}}
       <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/{{member}}.png" alt="Ator Ben Affleck (Batman) triste.">
+        <img class="menu-item-image" src="assets/img/{{member}}.png" alt="Imagem de {{member}}.">
         <div>
           <p class="menu-item-title">
             {{member}}
@@ -72,5 +78,4 @@
     </ul>
   </main>
 </body>
-</div>
 </html>
