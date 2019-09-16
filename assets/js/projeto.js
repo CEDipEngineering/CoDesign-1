@@ -6,7 +6,11 @@ let db = coDesConnect("https://codesign-2019-a.firebaseio.com/")
   	var id = val['id'];
   	map = MapDataBase(data);
   	let cat = map[id];
+
+    console.log(cat);
+
   	let context = data['portfolio'][cat]["projetos"][id];
+
   	console.log(context);
 
   	let body = {};
@@ -16,12 +20,49 @@ let db = coDesConnect("https://codesign-2019-a.firebaseio.com/")
  		body["main-body"]["text"] = data['portfolio'][cat]["projetos"][id]["main-body"]["text"]
   	}
 
-  	console.log(body);
+    let titles = [];
+    let contents = [];
+    let constructorBody = {}
 
-	coDesReplace('.main-title', context);
+    for (let title in body['main-body']['subtitles']) {
+      titles.push(body['main-body']['subtitles'][title]);
+    }
+    for (let content in body['main-body']['text']) {
+      contents.push(body['main-body']['text'][content]);
+    }
+    for (let i = 0; i<titles.length; i++) {
+      constructorBody[i] = {'subtitle':titles[i],
+                            'body':contents[i]}
+    }
+
+    let members = [];
+    let qualifications = [];
+    let constructorMenu = {}
+
+    for (let member in context['menu']['members']) {
+      members.push(context['menu']['members'][member]);
+    }
+    for (let qualification in context['menu']['qualification']) {
+      qualifications.push(context['menu']['qualification'][qualification]);
+    }
+    for (let i = 0; i<members.length; i++) {
+      constructorMenu[i] = {'member':members[i],
+                            'qualification':qualifications[i]}
+    }
+
+
+    let mainBodyBuilder = {'main-body': constructorBody};
+    let menuBuilder = {'menuBuilder': constructorMenu};
+
+   //  console.log(titles);
+   // console.log(contents);
+   //  console.log(mainBodyBuilder);
+    console.log(menuBuilder);
+
+	  coDesReplace('.main-title', context);
     coDesReplace('.sub-header', context);
-    coDesReplace('.main-body', body);
-  	coDesReplace('.menu', context);
+    coDesReplace('.main-body', mainBodyBuilder);
+  	coDesReplace('.menu', menuBuilder);
 
   })
 

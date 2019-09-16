@@ -1,399 +1,308 @@
-{"portfolio":{
-  "elect": {
-    "main-title": "Eletrônica",
-    "sub-header": "Aqui você encontrará projetos voltados para eletrônica, como uma estação meteorológica fazendo uso do Arduino.",
-    "projetos":{
-      "pwm": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
+{
+  "portfolio" : {
+    "elect" : {
+      "main-title" : "Eletrônica",
+      "projetos" : {
+        "pwm" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Modelagem e construção de um circuito de PWM.",
+              "second" : "Fiz um motor eficiente.",
+              "third" : "Eletrônica."
+            }
           },
-
-          "text": {
-            "first": "Modelagem e construção de um circuito de PWM.",
-            "second": "Fiz um motor eficiente.",
-            "third": "Eletrônica."
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
+          "main-title" : "Controle de um motor por PWM",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
           },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
-        },
-        "sub-header": "Neste projeto iremos controlar a velocidade de um motor através da técnica de modulação de largura de pulso.",
-        "main-title": "Controle de um motor por PWM"
-      }
-    }
-  },
-
-  "mat": {
-    "main-title": "Matemática",
-    "sub-header": "Aqui você encontrará projetos voltados para matemática, como uma análise sobre o teorema de Stokes.",
-    "projetos":{
-
-      "magnus": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
-          },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
-          },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
-        },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
+          "sub-header" : "Neste projeto iremos controlar a velocidade de um motor através da técnica de modulação de largura de pulso."
+        }
       },
-
-      "stokes": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
+      "sub-header" : "Aqui você encontrará projetos voltados para eletrônica, como uma estação meteorológica fazendo uso do Arduino."
+    },
+    "fab" : {
+      "main-title" : "Fabricação",
+      "projetos" : {
+        "ambulantes" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
           },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
           },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
         },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
-      }
-    }
-  },
-
-  "prog": {
-    "main-title": "Programação",
-    "sub-header": "Aqui você encontrará projetos voltados para programação, como jogos em pygame e analisadores bayesianos de sentimento",
-    "projetos":{
-
-      "cage": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
+        "estac-met" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
           },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
           },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
         },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
+        "girafa" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
+          },
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
+          },
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
+        }
       },
-
-      "portfolio": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
+      "sub-header" : "Aqui você encontrará projetos voltados para fabricação, como uma estação meteorológica fazendo uso de circuitos integrados."
+    },
+    "mat" : {
+      "main-title" : "Matemática",
+      "projetos" : {
+        "magnus" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
           },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
           },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
         },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
+        "stokes" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
+          },
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
+          },
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
+        }
       },
-
-      "daltofix": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
+      "sub-header" : "Aqui você encontrará projetos voltados para matemática, como uma análise sobre o teorema de Stokes."
+    },
+    "prog" : {
+      "main-title" : "Programação",
+      "projetos" : {
+        "cage" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
           },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
           },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
         },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
+        "daltofix" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
+          },
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
+          },
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
+        },
+        "football" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
+          },
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
+          },
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
+        },
+        "portfolio" : {
+          "main-body" : {
+            "subtitles" : {
+              "first" : "Título Completo:",
+              "second" : "Sobre o projeto:",
+              "third" : "Habilidades desenvolidas:"
+            },
+            "text" : {
+              "first" : "Construção de uma estação meteorológica numa shield de arduino.",
+              "second" : "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
+              "third" : "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
+            }
+          },
+          "main-title" : "Estação Meteorológica",
+          "menu" : {
+            "members" : {
+              "first" : "Ben Affleck",
+              "second" : "Michael Jackson",
+              "third" : "John Travolta"
+            },
+            "qualification" : {
+              "first" : "I'm Batman",
+              "second" : "Thriller",
+              "third" : "?"
+            }
+          },
+          "sub-header" : "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros."
+        }
       },
-
-      "football": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
-          },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
-          },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
-        },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
-      }
-    }
-  },
-
-  "fab": {
-    "main-title": "Fabricação",
-    "sub-header": "Aqui você encontrará projetos voltados para fabricação, como uma estação meteorológica fazendo uso de circuitos integrados.",
-    "projetos": {
-
-      "girafa": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
-          },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
-          },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
-        },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
-      },
-
-      "ambulantes": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
-          },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
-          },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
-        },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
-      },
-
-      "estac-met": {
-
-        "main-body": {
-
-          "subtitles": {
-            "first": "Título Completo:",
-            "second": "Sobre o projeto:",
-            "third": "Habilidades desenvolidas:"
-          },
-
-          "text": {
-            "first": "Construção de uma estação meteorológica numa shield de arduino.",
-            "second": "Esse projeto consiste na construção de uma placa de circuito integrado, na forma de uma shield de arduino, capaz de coletar medidas de grandezas físicas relacionadas ao clima e fazer as respectivas calibrações dos sensores, de forma a maximizar a acurácia destes.",
-            "third": "Programação de arduino, desenho e corte de placas de circuito, montagem e simulação de circuitos elétricos, calibração de sensores. "
-          }
-
-        },
-
-        "menu": {
-
-          "members": {
-            "first": "Ben Affleck",
-            "second": "Michael Jackson",
-            "third": "John Travolta"
-          },
-
-          "qualification": {
-            "first": "I'm Batman",
-            "second": "Thriller",
-            "third": "?"
-          }
-
-        },
-        "sub-header": "Neste projeto, usamos vários sensores analógicos e digitais para medir temperatura, pressão, altitude, umidade, luminosidade, entre outros.",
-        "main-title": "Estação Meteorológica"
-      }
+      "sub-header" : "Aqui você encontrará projetos voltados para programação, como jogos em pygame e analisadores bayesianos de sentimento"
     }
   }
-}
 }

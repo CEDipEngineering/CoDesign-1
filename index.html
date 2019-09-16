@@ -2,18 +2,21 @@
 <html lang="pt-br">
 <head>
   <title>Portfólio de Engenharia</title>
-  <link href="assets/css/reset.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/index.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/fonts.css" rel="stylesheet">
+  <link href="assets/css/index.css" rel="stylesheet">
   <script src="assets/js/codes.js"></script>
+  <script src="assets/js/main.js"></script>
   <script src="assets/js/index.js"></script>
 
 
   <meta charset="utf-8">
   <meta name = "viewport" content = "width = device-width, initial-scale = 1">  
 </head>
+<div class="cover">
 <body>
   <main class = "main">
     <header class="header">
@@ -24,7 +27,7 @@
 
 
     <div class = "sub-header">
-      <img class = "sub-header-img" src= "assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
+      <img class = "sub-header-img" src= "assets/img/Ben Affleck.png" alt="Ator Ben Affleck (Batman) triste.">
       <div class="sub-header-text">
         <p>
           Olá, meu nome é Ben Affleck e sou engenheiro mecânico formado pelo Insper com dupla titulação em controle e automação.       
@@ -42,7 +45,7 @@
 
     {{#each portfolio}}
       <li class="menu-item">
-        <img class="menu-item-image" src="assets/img/aw.png" alt="Ator Ben Affleck (Batman) triste.">
+        <img class="menu-item-image" src="assets/img/Ben Affleck.png" alt="Ator Ben Affleck (Batman) triste.">
         <div>
           <a href = "categoria.html?id={{@key}}">
             <p class="menu-item-title">
@@ -59,4 +62,5 @@
     </ul>
   </main>
 </body>
+</div>
 </html>

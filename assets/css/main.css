@@ -9,8 +9,13 @@
 
 body {
   background-color: #000000;
-  font-family: 'Lora', serif, sans-serif;
-  /*background-image: linear-gradient(#cfaa34, #000 1.5rem);*/
+  font-family: 'Lora', sans-serif;
+}
+
+@media(min-height: 900px) {
+  body {
+    background-image: linear-gradient(#cfaa34, #000 1% 99%, #cfaa34);
+  }
 }
 
 a {
@@ -32,15 +37,17 @@ a {
   display: flex;
   flex-direction: row;
   border-radius: 3rem;
-  border: 0.3rem solid #cfaa34;
+  border: 0.1rem solid #cfaa34;
   margin: 2rem;
   justify-content: flex-end;
   color: #ffffff;
+  max-width: 75%;
 }
 
 .sub-header-img {
   max-width: 12rem;
   border-radius: 3rem;
+  padding: 0.5rem;
 }
 
 .main-title {
@@ -51,12 +58,12 @@ a {
 
 .main-body {
   display: flex;
-  border: 0.3rem solid #cfaa34;
+  border: 0.1rem solid #cfaa34;
   border-radius: 1.5rem;
   flex-flow: column wrap;
   height: auto;
   justify-content: space-between;
-  max-width: 100%;
+  max-width: 75%;
   margin: 0 2rem;
   color: #ffffff;
   padding: 1.5rem;
@@ -70,10 +77,11 @@ a {
   border: 0.1rem solid #cfaa34;
   border-radius: 1.5rem;
   justify-content: flex-start;
-  width: 40%;
+  min-width: 20rem;
+  max-width: 40%;
   height: 10rem;
   color: #ffffff;
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 
 .menu {
@@ -107,10 +115,6 @@ a {
   align-self: center;
 }
 
-.menu-item-title, .main-title, .main-body-subtitle .menu-title {
-  font-family: 'Montserrat', sans-serif;  
-}
-
 .sub-header {
   display: flex;
   margin: 2rem;
@@ -130,9 +134,16 @@ a {
   background-color: transparent;
 }
 
-.home-button:hover {
-  background-color: #cfaa34;
+.home-button:hover{
+  background-color: #d60c07;
 }
+
+.sub-header:hover, .menu-item:hover, .main-body:hover {
+  -moz-box-shadow:    inset 0 0 15px #d60c07;
+  -webkit-box-shadow: inset 0 0 15px #d60c07;
+  box-shadow:         inset 0 0 15px #d60c07;
+}
+
 
 @media (max-width: 600px) {
 
