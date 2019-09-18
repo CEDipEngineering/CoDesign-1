@@ -90,7 +90,8 @@ a {
 .menu {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 1rem;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .main-body-subtitle {
@@ -102,7 +103,7 @@ a {
 .menu-title {
   font-size: 2rem;
   color: #ffffff;
-  margin: 1.5rem 0.25rem 2rem 2rem;
+  margin: 3.5rem 0.25rem 2rem 2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -182,7 +183,7 @@ a {
 
   .menu {
     flex-flow: column nowrap;
-    width:90%;
+    width: 90%;
     height: auto;
     margin: auto;
     align-items: center;
